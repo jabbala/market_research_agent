@@ -22,10 +22,31 @@ We’ll build a crew of agents that divide the tasks:
 ## Architecture Diagram
 ![System Architecture](./architecture_diagram.png)
 
+## Agent Workflow
+1. **Crawler Agent**  
+   Scrapes product data (name, price, rating) from e-commerce platforms.
+
+2. **Data Analyst Agent**  
+   Analyzes competitor pricing and product variations.
+
+3. **Report Writer Agent**  
+   Summarizes insights into a human-readable report.
+
+4. **Mailer Agent**  
+   Emails the report to stakeholders automatically.
+
 ## Agent Collaboration Flow:
 ``` css
 [CrawlerAgent] → [AnalystAgent] → [ReportAgent] → [MailerAgent]
 ```
+
+## 🛠️ Tech Stack
+- Python
+- CrewAI
+- LangChain
+- OpenAI (LLM)
+- BeautifulSoup / Playwright
+- SMTP (Email Automation)
 
 ## Code: crewAI Market Research Team
 ``` python
