@@ -19,6 +19,9 @@ We’ll build a crew of agents that divide the tasks:
 * Report Writer Agent – Summarizes the insights.
 * Mailer Agent – Sends the report via email.
 
+## Architecture Diagram
+![System Architecture](./architecture_diagram.png)
+
 ## Agent Collaboration Flow:
 ``` css
 [CrawlerAgent] → [AnalystAgent] → [ReportAgent] → [MailerAgent]
